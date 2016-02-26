@@ -1,0 +1,45 @@
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.item {
+  height: 50px;
+  min-width: 50px;
+  border: 5px solid #000;
+  border-radius: 9999px;
+  display: inline-block;
+  margin: 5px;
+  padding: 9px 10px 0px 10px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+.holder {
+  border: 2px solid #000;
+  display: table-cell;
+  width: 30%;
+  min-height: 200px;
+  position: relative;
+}
+
+#outerHolder {
+  display: table;
+  width: 100%;
+  min-height: 200px;
+}
+
+.selected {
+  border: 5px solid red;
+}
+
+.footer {
+  margin: 6px;
+  bottom: 0;
+  position: absolute;
+  font-size: medium;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Group Organizer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div>
+    <h1>Group Organizer</h1>
+
+    <input type="text" id="itemName" placeholder="Name">
+    <input id='itemValue' type="number" placeholder="Value">
+    <button id="addItem">Add Item</button>
+  </div>
+
+  <div id='outerHolder'>
+    <div class="holder" id='left'>
+      <div class='footer'>Total: <span class="total">0</span></div>
+    </div>
+    <div class="holder" id="center">
+      <div class='footer'>Total: <span class="total">0</span></div>
+    </div>
+    <div class="holder" id='right'>
+      <div class='footer'>Total: <span class="total">0</span></div>
+    </div>
+  </div>
+
+</body>
+</html>
